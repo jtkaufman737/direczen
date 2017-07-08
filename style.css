@@ -578,9 +578,10 @@ CUSTOM STYLING
 nav{
   width:100%;
   font-family: 'Pacifico', cursive;
-  display:flex;
-  justify-content:flex-end;
   display:inline-flex;
   background-color:black;
   color:white;
+  margin-bottom:-1px !important;
+  padding-left:1%;
+  padding-right:1%;
 }
