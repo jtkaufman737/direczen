@@ -591,3 +591,16 @@ footer{
   bottom:0px;
   min-width:100%;
 }
+
+#nextSide{
+  float:right;
+  text-align:left;
+  width:49%;
+}
+
+#frontSide{
+  float:left;
+  text-align: right;
+  align-items:right;
+  width:50%;
+}
