@@ -1,50 +1,178 @@
 <!DOCTYPE html>
-<head>
-  <title>Direczens</title>
-<link rel="stylesheet" type="text/css" href="style.css"/>
-<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
-</head>
-<center>
-<body>
-  <h1 style="font-size:100px; color:white;">direczen</h1>
-  <div class="container">
-    <div class="cards">
-      <div class="card">
-        <h3 class="card-header"><a href="home.html">home</a></h3>
-        <p class="card-body"><img class="imgcard" src="map.png"/></p>
-      </div>
-      <div class="card small">
-        <h3 class="card-header"><a href="destinations">destinations</a></h3>
-        <p class="card-body"><img class="imgcard" src="suitcase.png"></p>
-      </div>
-    </div>
-      <div class="cards">
-        <div class="card">
-          <h3 class="card-header"><a href="mission">mission</a></h3>
-          <p class="card-body"><img class="imgcard" src="air_tickets.png"/></p>
-        </div>
-        <div class="card">
-          <h3 class="card-header"><a href="international.html">international</a></h3>
-          <p class="card-body"><img class="imgcard" src="swiss_army.png"></p>
-        </div>
-      </div>
-      <div class="cards small">
-          <div class="card">
-            <h3 class="card-header"><a href="partners">partners</a></h3>
-            <p class="card-body"><img class="imgcard" src="travel_book.png"/></p>
-          </div>
-          <div class="card">
-            <h3 class="card-header"><a href="contact">contact</a></h3>
-            <p class="card-body"><img class="imgcard" src="phone_location.png"></p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+	<head>
 
-  <!--    home destinations mission international airlines lodging partners team contact -->
+		<meta charset="utf-8">
+		<meta name='language' content='en'>
+		<meta name="title" content="Direczens">
+		<meta name="description" content="[description of Direczens should go here]">
+		<meta name="keywords" content="[keywords for Direczens should go here]">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta property="og:type" content="website"> 
+		<meta property="og:site_name" content="Direczens">
+		<meta property="og:title" content="Direczens">
+		<meta property="og:image" content="">
+		<meta property="og:description" content="[description of Direczens should go here]">
+		<meta property="og:url" content="">
+		<script src="js/jquery-3.1.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/direczen.js"></script>
+		<!--<link rel="icon" href="">-->
+		<link rel="stylesheet" type="text/css" href="css/font-awesome-4.6.3/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link href="assets/fonts/Dosis/" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/direczens.css">
 
-  </div>
-</body>
+		<style>@import url('https://fonts.googleapis.com/css?family=Dosis');</style>
+		
+		<title>Direczens</title>
+
+	</head>
+
+	<body>
+
+		<nav class="navbar navbar-fixed-top">
+	  		<div class="container-fluid">
+	    			
+	    			<div class="navbar-header">
+	     
+	      				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	        				<span class="icon-bar"></span>
+	        				<span class="icon-bar"></span>
+	        				<span class="icon-bar"></span>
+	      				</button>
+	    			</div>	
+
+	    			<div class="collapse navbar-collapse" id="myNavbar">
+	    					<div class="logo">
+	    						<h1><a href="index.html">direczen</a></h1>
+	    					</div>
+	      				<ul class="nav navbar-nav" id="navbar-left">
+	  	   						<li><a href="#about">about</a></li>
+	  	   						<li><a href="#destinations">destinations</a></li>
+	  	   						<li><a href="#international">international</a></li>
+	  	   						<li><a href="#airlines">airlines</a></li>
+	  	   						<li><a href="#partners">partners</a></li>
+	  	   						<li><a href="#contact">contact</a></li>
+								
+	      				</ul>
+	   				 </div>
+	  			</div>
+		</nav>
+
+		
+			<section id="hero" class="green-section">
+				<div class="container">
+					<img src="assets/img/compass.svg" id="hero-img">
+					<div id="hero-text">
+						<h1 id="hero-title">direczen</h1>
+						<h3>[insert tagline here]</h3>
+					</div>
+				</div>
+
+			</section>
+
+			<section id="about" class="white-section">
+				<div class="container">
+					<div class="section-title-area">
+						<img src="assets/img/case.svg" class="title-img">
+						<h1>about</h1>
+					</div>
+
+
+
+
+				</div>
+				
+			</section>
+
+
+			<section id="destinations" class="green-section">
+				<div class="container">
+					<div class="section-title-area">
+						<img src="assets/img/suitcase.svg" class="title-img">
+						<h1>destinations</h1>
+					</div>
+
+
+
+				</div>
+			</section>
+
+			<section id="international" class="white-section">
+					
+				<div class="section-title-area">
+					<img src="assets/img/swiss_army.svg" class="title-img">
+					<h1>international</h1>
+				</div>
+
+
+				
+			</section>
+
+			<section id="airlines" class="green-section">
+				
+				<div class="section-title-area">
+					<img src="assets/img/air_tickets.svg" class="title-img">
+					<h1>airlines</h1>
+				</div>
+
+
+				
+			</section>
+
+			<section id="partners" class="white-section">
+				
+				<div class="section-title-area"> 
+					<img src="assets/img/travel_book.svg" class="title-img">
+					<h1>partners</h1>
+				</div>
+
+
+				
+			</section>
+
+			<section id="contact" class="green-section">
+				
+				<div class="section-title-area">
+					<img src="assets/img/phone_location.svg" class="title-img" >
+					<h1>contact</h1>
+				</div>
+
+
+				
+			</section>
+
+		</div>
+	</body>
+
+	<footer>
+
+		<div class="row">
+
+	
+			<div class="logo" id="footer-logo">
+		    	<h1>direczen</h1>
+		    </div>
+
+				<ul class="list-inline">
+					<li>
+						<a href="" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+					</li>
+					<li>
+						<a href="" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+					</li>
+					<li>
+						<a href="" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
+					</li>
+
+				</ul>
+
+			<div id="footer-credits">
+				&copy; direczen 2017 | Made for <a href="https://hacktoberfest.digitalocean.com/"> Hacktoberfest</a> 
+			</div>
+
+		</div>
+
+	</footer>
+
 </html>
