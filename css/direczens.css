@@ -34,9 +34,10 @@ a:hover{
 
 .logo{
 	width:180px;
-	text-align:left;
+	text-align: left;
 	color: #f9f9f9;
 	font-weight: 800;
+	margin: -5px 0 0 10px;
 }
 
 .logo a, .logo a:hover{
@@ -45,27 +46,54 @@ a:hover{
 
 #myNavbar{
   text-align: center;
-  padding: 0 2rem;
-  width: 1024px;
-  margin: 0 auto;
 }
 
 .navbar-nav{
-	margin: -7rem 0 0 15rem;
+	margin: -5rem 0 0 13rem;
+
 }
 
-.navbar-nav > li > a {
-    padding-top: 25px;
-    padding-bottom: 30px;
+ul.navbar-nav{ 
+	white-space: nowrap;
+}
+
+.navbar-nav li  a {
     color: #f9f9f9;
+    background-color: #3d3d3d;
+    width: 100%;
+    float: none;
+    display: inline-block;
+
 }
 
-.navbar-nav > li > a:hover {
-    background-color: transparent;
+.navbar-nav  li  a:hover {
+	background-color: #3d3d3d;
     color: #8dcea8;
     transition: all .3s ease-in-out;
 }
 
+.navbar-toggle {
+	margin-top: -5rem;
+    background-color: transparent;
+    border: 2px solid #f9f9f9;
+    border-radius: 4px;
+}
+
+.navbar-toggle:hover{
+	background-color: #f9f9f9;
+	transition: all .3s ease-in-out;
+
+}
+
+.icon-bar { 
+	border: 1px solid #f9f9f9;
+}
+
+.navbar-toggle:hover .icon-bar{
+	border: 1px solid #3d3d3d;
+	transition: all .3s ease-in-out;
+
+}
 
 /* Styling pertainting to sections of the page - common CSS shared among elements */
 
@@ -149,6 +177,7 @@ footer {
 	text-align: center;
 	font-family: 'Dosis', sans-serif;
 	margin-top: 100px;
+	margin-left: 7px;
 
 }
 
@@ -156,6 +185,7 @@ footer {
     padding-left: 0;
     list-style: none;
     margin-top: -20px;
+    margin-left: 12px;
     display: block;
     text-align: center;
     height: 40px;
@@ -165,6 +195,7 @@ list-inline > li {
     display: block;
     padding-left: 5px;
     padding-right: 5px;
+    margin-left:2px;
 
 }
 
@@ -189,6 +220,7 @@ list-inline > li {
   	font-weight: 400;
 	font-size: 12px;
 	margin-top: 30px;
+	margin-left: 10px;
 }
 
 #footer-credits a{
